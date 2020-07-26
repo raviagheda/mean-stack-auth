@@ -1,0 +1,4 @@
+<div *ngIf="this.authservice.currentUser">
+    <h2> Welcome <span> {{this.authservice.currentUser.name}} </span> </h2>
+    <button (click)="onLogout()" class="btn btn-link">Logouts</button>
+</div>

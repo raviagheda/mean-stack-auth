@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="mt-5 shadow py-5 box">
+        <div align="center">
+            <h2>Login</h2>
+            <form class="mt-2" #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+                <input type="email" placeholder="Email" name="email" class="mt-2 form-control form-input" ngModel>
+                <input type="password" placeholder="Password" name="password" class="mt-2 form-control form-input" ngModel>
+                <button class="btn btn-primary mt-2">Login</button>
+
+                <br><br>
+                <button class="btn btn-link" type="button" routerLink="/signup">Signup</button>
+            </form>
+        </div>
+    </div>
+</div>

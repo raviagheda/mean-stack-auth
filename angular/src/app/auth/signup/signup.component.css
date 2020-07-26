@@ -1,0 +1,9 @@
+.box{
+    border-radius: 12px;
+    border-top: 3px solid orange;
+}
+
+.form-input{
+    max-width: 18rem;
+    margin-top: 8px;
+}
